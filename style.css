@@ -32,6 +32,12 @@ body {
     /* Figure out SVG Background */
 }
 
+.banner{
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
 .profile-card{    
     width: 400px;
     border-radius: 10px;
@@ -61,12 +67,16 @@ body {
 }
 
 .age {
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .location {
     font-size: 14px;
     padding: 10px 0 0 0;
+}
+
+hr {
+    color: var(--Dark-grayish-blue);
 }
 
 .row {
