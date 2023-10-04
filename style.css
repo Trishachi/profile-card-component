@@ -1,6 +1,8 @@
 /* Variables */
 :root {
     --Dark-cyan: hsl(185, 75%, 39%);
+
+    --Cyan-background: hsl(185, 75%, 50%);
     --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
     --Dark-grayish-blue: hsl(227, 10%, 46%);
 
@@ -15,12 +17,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
+    color: var(--Very-dark-desaturated-blue);
 }
 body {
     
     font-size: 18px;
     height: 100vh;
-    background-color: aqua;
+    background-color: var(--Cyan-background);
     display: flex;
     
     justify-content: center;
@@ -51,4 +54,16 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #fff;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 10px;
+}
+
+.category{
+    margin-top: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
