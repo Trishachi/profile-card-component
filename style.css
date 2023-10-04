@@ -56,6 +56,19 @@ body {
     border: 2px solid #fff;
 }
 
+.profile-details{
+    padding: 25px;
+}
+
+.age {
+    padding: 0 10px;
+}
+
+.location {
+    font-size: 14px;
+    padding: 10px 0 0 0;
+}
+
 .row {
     display: flex;
     justify-content: space-around;
