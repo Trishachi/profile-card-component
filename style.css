@@ -2,7 +2,6 @@
 :root {
     --Dark-cyan: hsl(185, 75%, 39%);
 
-    --Cyan-background: hsl(185, 75%, 50%);
     --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
     --Dark-grayish-blue: hsl(227, 10%, 46%);
 
@@ -19,24 +18,24 @@
     font-family: 'Kumbh Sans', sans-serif;
     color: var(--Very-dark-desaturated-blue);
 }
-body {
-    
+body {  
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);  
+    background-position: left -380px top -558px, bottom -670px right -350px;
+    background-repeat: no-repeat, no-repeat;
     font-size: 18px;
     height: 100vh;
-    background-color: var(--Cyan-background);
-    display: flex;
-    
+    background-color: var(--Dark-cyan);
+    display: flex;    
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* Figure out SVG Background */
 }
 
 .banner{
     background-image: url(./images/bg-pattern-card.svg);
     height: 150px;
     border-radius: 10px 10px 0 0;
-    margin-bottom: -50px;
+    margin-bottom: -60px;
 }
 
 .profile-card{    
@@ -47,8 +46,8 @@ body {
 
 .profile-pic {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background-color: white;
     padding: 3px;
@@ -78,6 +77,7 @@ body {
 
 hr {
     color: var(--Dark-grayish-blue);
+    opacity: 0.3;
 }
 
 .row {
